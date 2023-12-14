@@ -10,13 +10,11 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main() {
     int i;
-
     for (i = 1; i <= 9 * 9; ++i) {
         printf("%d*%d=%d\t", (i - 1) / 9 + 1, (i - 1) % 9 + 1, ((i - 1) / 9 + 1) * ((i - 1) % 9 + 1));
         if (i % 9 == 0) {
             printf("\n");
         }
     }
-
     return 0;
 }
