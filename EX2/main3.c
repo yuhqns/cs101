@@ -11,10 +11,10 @@ Code, Compile, Run and Debug online from anywhere in world.
 int main() {
     int i = 3;
     if (i & 1) {
-        printf("false");
+        printf("true");
     }
     else {
-        printf("true");
+        printf("false");
     }
     return 0;
 }
